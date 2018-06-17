@@ -7,7 +7,7 @@
 * Rotate
 * Position
 
->run ```npm install``` prior to running your node server with ```npm start```
+>run ```npm install``` to install node modules prior to running ```npm start``` to run the app
 
 ## TODO
 
