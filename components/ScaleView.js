@@ -44,7 +44,7 @@ export default class ScaleView extends Component {
           width: 100,
           transform: [{scale: scale}]
         }}
-        source={require('../assets/duck.png')}
+        source={require('../assets/mothra.png')}
       />
     )
   }

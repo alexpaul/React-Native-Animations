@@ -10,6 +10,7 @@ import { Text,
 import FadeView from './components/FadeView'
 import RotateView from './components/RotateView'
 import ScaleView from './components/ScaleView'
+import MovingView from './components/MovingView'
 
 export default class App extends React.Component {
   state = {
@@ -40,7 +41,7 @@ export default class App extends React.Component {
                 title='Hide Animation'
                 onPress={() => this.showAnimation()}
               />
-              <View style={{marginTop: 200, width: '80%', height: '80%'}}>
+              <View style={{marginTop: 200, marginLeft: -600, width: '80%', height: '80%'}}>
 
                 {/* Fade Animation  */}
                 {/* <FadeView/> */}
@@ -49,7 +50,10 @@ export default class App extends React.Component {
                 {/* <RotateView/> */}
 
                 {/* Scale View */}
-                <ScaleView/>
+                {/* <ScaleView/> */}
+
+                {/* Moving View */}
+                <MovingView />
 
               </View>
             </View> 
@@ -63,7 +67,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1, 
-    alignItems: 'center', 
+    //alignItems: 'center', 
     backgroundColor: '#000', 
   }, 
 })
