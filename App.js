@@ -11,6 +11,7 @@ import FadeView from './components/FadeView'
 import RotateView from './components/RotateView'
 import ScaleView from './components/ScaleView'
 import MovingView from './components/MovingView'
+import SequenceAnimation from './components/SequenceAnimation'
 
 export default class App extends React.Component {
   state = {
@@ -41,7 +42,13 @@ export default class App extends React.Component {
                 title='Hide Animation'
                 onPress={() => this.showAnimation()}
               />
-              <View style={{marginTop: 200, marginLeft: -600, width: '80%', height: '80%'}}>
+
+              {/* Only for the moving animation */}
+              {/* <View style={{marginTop: 200, marginLeft: -500, width: '80%', height: '80%'}}> */}
+                {/* Moving View */}
+                {/* <MovingView /> */}
+
+                <View style={{marginTop: 200, width: '80%', height: '80%'}}>
 
                 {/* Fade Animation  */}
                 {/* <FadeView/> */}
@@ -52,8 +59,8 @@ export default class App extends React.Component {
                 {/* Scale View */}
                 {/* <ScaleView/> */}
 
-                {/* Moving View */}
-                <MovingView />
+                {/* Sequence Animation */}
+                <SequenceAnimation/>
 
               </View>
             </View> 

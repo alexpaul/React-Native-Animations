@@ -23,7 +23,7 @@ export default class MovingView extends Component {
       this.state.movingScale, 
       {
         toValue: 1, 
-        duration: 5000, 
+        duration: 10000, 
         easing: Easing.linear //.ease, 
       }
 
@@ -43,7 +43,7 @@ export default class MovingView extends Component {
           height: 200,
           marginLeft: move,
         }}
-        source={require('../assets/pirate-ship.png')}
+        source={require('../assets/pirate-ship-2.png')}
       />
     )
   }
