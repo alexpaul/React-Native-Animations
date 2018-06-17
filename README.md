@@ -5,5 +5,12 @@
 * Fade
 * Scale 
 * Rotate
+* Position
 
->NB run ```npm install``` prior to running your node server with ```npm start```
+>run ```npm install``` to install node modules prior to running ```npm start``` to run the app
+
+## TODO
+
+* 3D example 
+* Sequencing example 
+* Parallel example 
