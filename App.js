@@ -19,7 +19,6 @@ export default class App extends React.Component {
   }
 
   showAnimation() {
-    console.log('show animation')
     this.setState({ 
       hideButton: !this.state.hideButton, 
       hideAnimationView: !this.state.hideAnimationView
@@ -32,6 +31,7 @@ export default class App extends React.Component {
         {
           !this.state.hideButton ? 
             <Button
+              style={{alignItems:'center'}}
               title='Show Animation'
               onPress={() => this.showAnimation()}
             />
