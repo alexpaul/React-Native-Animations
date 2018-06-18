@@ -12,6 +12,6 @@
 >run ```npm install``` to install node modules prior to running ```npm start``` to run the app
 
 <p align="center">
-  <img src="https://github.com/alexpaul/React-Native-Animations/blob/master/assets/animation-app.gif" width="301" height="649" /> 
+  <img src="https://github.com/alexpaul/React-Native-Animations/blob/master/assets/animations-app.gif" width="301" height="649" /> 
 </p>
 
