@@ -36,15 +36,21 @@ export default class RotateView extends Component {
     })
 
     return(
-      <Animated.Image
+      <Animated.View
         style={{
-          height: 100, 
-          width: 100, 
+          alignItems: 'center', 
+          justifyContent: 'center', 
           transform:[{ rotate: spin }]
         }}
-        source={require('../assets/universe-icon.png')}
       >
-      </Animated.Image>
+        <Image
+          source={require('../assets/universe-icon.png')}
+          style={{
+            width: 200, 
+            height: 200, 
+          }}
+        />
+      </Animated.View>
     )
   }
 }

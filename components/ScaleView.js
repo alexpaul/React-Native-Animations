@@ -38,14 +38,29 @@ export default class ScaleView extends Component {
     })
 
     return(
-      <Animated.Image
+      <Animated.View
         style={{
-          height: 100, 
-          width: 100,
+          alignItems: 'center', 
+          justifyContent: 'center', 
           transform: [{scale: scale}]
         }}
-        source={require('../assets/mothra.png')}
-      />
+      >
+        <Image
+          source={require('../assets/mothra.png')}
+          style={{
+            height: 100, 
+            width: 100,
+          }}
+        />
+      </Animated.View>
+      // <Animated.Image
+      //   style={{
+      //     height: 100, 
+      //     width: 100,
+      //     transform: [{scale: scale}]
+      //   }}
+      //   source={require('../assets/mothra.png')}
+      // />
     )
   }
 }
