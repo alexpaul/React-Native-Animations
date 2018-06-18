@@ -37,17 +37,10 @@ export default class FadeView extends Component {
     return(
       <Animated.View  
         style={{
-          //...this.props.style, 
           opacity: fadeAnim, // bind opacity to animated value
-          //alignItems: 'center', 
-          //justifyContent: 'center', 
-          //width: 400, 
-          //flex: 1, 
-          //height:400, 
           backgroundColor: 'limegreen'
         }}
       >
-        {/* {this.props.children} */}
         <Text 
           style={{fontSize: 40, fontFamily: 'Chalkboard SE', color: 'white', paddingLeft: 10, paddingRight: 10}}
           textAlign='right'

@@ -46,21 +46,13 @@ export default class ScaleView extends Component {
         }}
       >
         <Image
-          source={require('../assets/mothra.png')}
+          source={require('../assets/duck.png')}
           style={{
             height: 100, 
             width: 100,
           }}
         />
       </Animated.View>
-      // <Animated.Image
-      //   style={{
-      //     height: 100, 
-      //     width: 100,
-      //     transform: [{scale: scale}]
-      //   }}
-      //   source={require('../assets/mothra.png')}
-      // />
     )
   }
 }

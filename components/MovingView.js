@@ -24,7 +24,7 @@ export default class MovingView extends Component {
       {
         toValue: 1, 
         duration: 10000, 
-        easing: Easing.linear //.ease, 
+        easing: Easing.linear 
       }
 
     ).start(() => this.animateView()) 
