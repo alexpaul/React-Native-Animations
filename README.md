@@ -12,5 +12,3 @@
 ## TODO
 
 * 3D example 
-* Sequencing example 
-* Parallel example 
