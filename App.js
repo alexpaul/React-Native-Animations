@@ -12,6 +12,7 @@ import RotateView from './components/RotateView'
 import ScaleView from './components/ScaleView'
 import MovingView from './components/MovingView'
 import SequenceAnimation from './components/SequenceAnimation'
+import ParallelAnimation from './components/ParalledAnimation'
 
 export default class App extends React.Component {
   state = {
@@ -48,7 +49,7 @@ export default class App extends React.Component {
                 {/* Moving View */}
                 {/* <MovingView /> */}
 
-                <View style={{marginTop: 200, width: '80%', height: '80%'}}>
+                <View style={{marginTop: 100, width: '80%', height: '80%'}}>
 
                 {/* Fade Animation  */}
                 {/* <FadeView/> */}
@@ -60,7 +61,10 @@ export default class App extends React.Component {
                 {/* <ScaleView/> */}
 
                 {/* Sequence Animation */}
-                <SequenceAnimation/>
+                {/* <SequenceAnimation/> */}
+
+                {/* Parallel Animation */}
+                <ParallelAnimation/>
 
               </View>
             </View> 
